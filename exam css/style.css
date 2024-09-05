@@ -1,0 +1,166 @@
+.navigation{
+    background-color: darkgreen;
+    height: 80px;
+    flex-direction: row;
+    justify-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+   
+}
+
+.line-black{
+    height: 25px;
+    background-color: rgb(6, 49, 19);
+    padding-left: 35%;
+    flex-direction: row;
+    align-content: center;
+}
+
+.nav-button{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: transparent;
+        color: white;
+        border:none;
+        cursor: pointer;
+}
+
+#army-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main-page{
+    background-color:  lightgray;
+    padding: 5px;
+    flex-grow: 1;
+   
+}
+
+.welcome{
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    height: 90px;
+}
+
+#text-welcome{
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+#text-lorem{
+    padding-bottom: 3px;
+    padding-top: 0px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+.schedule{
+    margin-top: 10px;
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    height: 650px;
+}
+
+    
+.footer{
+    background-color: darkgreen;
+    align-content: center;
+    height: 50px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer-text{
+    color: white;
+    text-align: center;
+}
+
+#header-main{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+   
+#date-main{
+    padding-left: 20px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.row{
+    height: 70px;
+    width: 400px;
+    border: transparent;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    margin: 5px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.row:hover {
+    background-color: gray; 
+}
+
+.other-side{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    
+}
+
+.content-row{
+    display: flex;
+    flex-direction: column;
+}
+
+#word-row1{
+    margin-top: 0;
+    background-color: palevioletred;
+    width: 60px;
+}
+#word-row2{
+    margin-top: 0;
+    background-color:rgb(3, 130, 165);
+    width: 60px;
+}
+#word-row3{
+    margin-top: 0;
+    background-color:palevioletred;
+    width: 60px;
+}
+#word-row4{
+    margin-top: 0;
+    background-color: rgb(3, 130, 165);
+    width: 60px;
+}
+#word-row5{
+    margin-top: 0;
+    background-color: rgb(3, 130, 165);
+    width: 60px;
+}
+#word-row6{
+    margin-top: 0;
+    background-color: yellow;
+    width: 60px;
+}
+
+

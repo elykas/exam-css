@@ -1,0 +1,125 @@
+.navigation{
+    background-color: darkgreen;
+    height: 80px;
+    flex-direction: row;
+    justify-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+   
+}
+
+.line-black{
+    height: 25px;
+    padding-left: 40%;
+    flex-direction: row;
+    align-content: center;
+}
+
+.nav-button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+#army-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.main-page{
+    background-color: rgb(241, 241, 241);;
+    padding: 5px;
+    flex-grow: 1;
+   
+}
+
+.welcome{
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    height: 170px;
+    margin: 5px;
+}
+
+#text-welcome{
+    padding: 30px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: green;
+}
+
+#text-lorem{
+    padding-bottom: 3px;
+    padding-top: 0px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+#header-main{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: green;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    padding: 8px;
+    background-color: rgb(229, 227, 227);
+    border: transparent;
+    border-radius: 7px;
+}
+
+.input{
+    width: 95%;
+    padding: 9px;
+    height: 4px;
+    border: transparent;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+
+}
+
+.footer{
+    background-color: darkgreen;
+    align-content: center;
+    height: 50px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer-text{
+    color: white;
+    text-align: center;
+}
+
+#sign{
+    background-color: green;
+    border: transparent;
+    border-radius: 3px;
+
+}
+
+#select{
+    width: 95%;
+    padding: 9px;
+    height: 4px;
+    border: transparent;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+}
